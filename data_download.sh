@@ -9,6 +9,7 @@ if [ ! -f image_data.json ]; then
      wget https://googledrive.com/host/0B046sNk0DhCDN3R4VzJBa0ZSSms/image_data.json.zip
      unzip image_data.json.zip
      rm image_data.json.zip
+fi
 if [ ! -f objects.json ]; then
 	wget https://googledrive.com/host/0B046sNk0DhCDN3R4VzJBa0ZSSms/objects.json.zip
 	unzip objects.json.zip
@@ -34,3 +35,4 @@ if [ ! -d images ]; then
      unzip images.zip -d images
      rm images.zip
 fi
+rm -rf __MACOSX

@@ -28,3 +28,5 @@
 *.app
 
 #data directory
+data/**/*
+!data/readme.txt

@@ -28,5 +28,3 @@
 *.app
 
 #data directory
-data/*
-!.gitkeep

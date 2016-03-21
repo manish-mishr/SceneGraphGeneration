@@ -1,0 +1,3 @@
+[submodule "chainer_caption_generation"]
+	path = chainer_caption_generation
+	url = https://github.com/apple2373/chainer_caption_generation

@@ -75,11 +75,11 @@ vocab_size=len(relation2index)
 
 model = chainer.FunctionSet()
 model.img_feature2vec=F.Linear(3*image_feature_dim, n_units)#parameter  W,b
-model.bn_feature=F.BatchNormalization(n_units),#parameter  sigma,gamma
+model.bn_feature=F.BatchNormalization(n_units)#parameter  sigma,gamma
 model.h1=F.Linear(n_units, n_units)#hidden unit,#parameter  W,b
-model.bn1=F.BatchNormalization(n_units),#parameter  gamma,beta
+model.bn1=F.BatchNormalization(n_units)#parameter  gamma,beta
 model.h2=F.Linear(n_units, n_units)#hidden unit,#parameter  W,b
-model.bn2=F.BatchNormalization(n_units),#parameter  gamma,beta
+model.bn2=F.BatchNormalization(n_units)#parameter  gamma,beta
 model.out=F.Linear(n_units, vocab_size)#parameter  W,b
 
 #Parameter Initialization

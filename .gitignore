@@ -28,7 +28,9 @@
 *.app
 
 #data directory
+work/**/*
 data/**/*
 !data/readme.txt
 
 graph_by_caption/SecneGraphParserPython.jar
+.ipynb_checkpoints

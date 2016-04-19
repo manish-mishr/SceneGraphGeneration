@@ -130,10 +130,10 @@ with open('../work/relationship_val_features.cpickle', 'w') as f:
     cpickle.dump(relationship_val_features,f)
 with open('../work/relationship_test_features.cpickle', 'w') as f:
     cpickle.dump(relationship_test_features,f)
-with open('../work/attribute_train_features.pcikle', 'w') as f:
+with open('../work/attribute_train_features.cpickle', 'w') as f:
     cpickle.dump(attribute_train_features,f)
 with open('../work/attribute_val_features.cpickle', 'w') as f:
     cpickle.dump(attribute_val_features,f)
-with open('../work/attribute_test_features.cpcikle', 'w') as f:
+with open('../work/attribute_test_features.cpickle', 'w') as f:
     cpickle.dump(attribute_test_features,f)
 

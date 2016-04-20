@@ -162,7 +162,7 @@ for epoch in xrange(200):
         sum_loss     += loss.data * batchsize
         sum_accuracy += accuracy.data * batchsize
     
-    serializers.save_hdf5(savedir+"/caption_model"+str(epoch)+'.chainer', model)
+    serializers.save_hdf5(savedir+"/relation_model"+str(epoch)+'.chainer', model)
     serializers.save_hdf5(savedir+"/optimizer"+str(epoch)+'.chainer', optimizer)
 
     mean_loss     = sum_loss / num_train_data

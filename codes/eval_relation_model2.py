@@ -53,12 +53,6 @@ with open('../work/relationship_val_features.cpickle', 'r') as f:
 with open('../work/relationship_val_triple_features.cpickle', 'r') as f:
     triple_id2subject_feature, triple_id2object_feature,triple_id2relation_id=cpickle.load(f)
 
-with open('../work/relationship_test_features.cpickle', 'r') as f:
-    image_id2image_feature_test=cpickle.load(f)
-
-with open('../work/relationship_test_triple_features.cpickle', 'r') as f:
-    triple_id2subject_feature_test, triple_id2object_feature_test,triple_id2relation_id_test=cpickle.load(f)
-
 with open('../work/rel_triple_id2image_id.pkl', 'r') as f:
     rel_triple_id2image_id=pickle.load(f)
 

@@ -3,7 +3,7 @@
 '''
 Author: satoshi tsustsui
 
-This is a code for evaluating baseline for secne graph via caption.
+This is a code for building baseline for secne graph via caption.
 
 caption -> scene_graph is done by http://nlp.stanford.edu/software/scenegraph-parser.shtml
 This is the progeam developed by Stanford NLP lab. I call their java program by python.

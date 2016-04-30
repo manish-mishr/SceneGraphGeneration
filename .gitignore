@@ -31,6 +31,7 @@
 work/**/*
 data/**/*
 !data/readme.txt
+!work/readme.txt
 
 graph_by_caption/SecneGraphParserPython.jar
 .ipynb_checkpoints
